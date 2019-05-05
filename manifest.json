@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "UT Skipper",
+  "version": "0.1",
+  "description": "Various skipping actions on UT to interact with the Leaderboard.",
+  "author": "JP",
+  "icons": {
+    "48": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.usertesting.com/pp*"],
+      "js": ["jquery-3.4.0.min.js","utskipper.js"]
+    }
+  ]
+
+}
